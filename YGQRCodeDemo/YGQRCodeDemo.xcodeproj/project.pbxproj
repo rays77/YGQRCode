@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D650F7141FA1C6E400FEEBDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D650F7131FA1C6E400FEEBDB /* AppDelegate.swift */; };
+		D650F7161FA1C6E500FEEBDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D650F7151FA1C6E400FEEBDB /* ViewController.swift */; };
+		D650F7191FA1C6E500FEEBDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D650F7171FA1C6E500FEEBDB /* Main.storyboard */; };
+		D650F71B1FA1C6E500FEEBDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D650F71A1FA1C6E500FEEBDB /* Assets.xcassets */; };
+		D650F71E1FA1C6E500FEEBDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D650F71C1FA1C6E500FEEBDB /* LaunchScreen.storyboard */; };
+		D650F7291FA1C6E500FEEBDB /* YGQRCodeDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D650F7281FA1C6E500FEEBDB /* YGQRCodeDemoTests.swift */; };
+		D650F7341FA1C6E500FEEBDB /* YGQRCodeDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D650F7331FA1C6E500FEEBDB /* YGQRCodeDemoUITests.swift */; };
+		D650F7501FA1CA6C00FEEBDB /* String+QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D650F7431FA1CA6C00FEEBDB /* String+QRCode.swift */; };
+		D650F7511FA1CA6C00FEEBDB /* UIImage+QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D650F7441FA1CA6C00FEEBDB /* UIImage+QRCode.swift */; };
+		D650F7521FA1CA6C00FEEBDB /* noticeMusic.caf in Resources */ = {isa = PBXBuildFile; fileRef = D650F7461FA1CA6C00FEEBDB /* noticeMusic.caf */; };
+		D650F7531FA1CA6C00FEEBDB /* QRCodeImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D650F7471FA1CA6C00FEEBDB /* QRCodeImages.xcassets */; };
+		D650F7541FA1CA6C00FEEBDB /* AlbumTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = D650F7491FA1CA6C00FEEBDB /* AlbumTool.swift */; };
+		D650F7551FA1CA6C00FEEBDB /* GenerateQRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D650F74B1FA1CA6C00FEEBDB /* GenerateQRCodeViewController.swift */; };
+		D650F7561FA1CA6C00FEEBDB /* MyQRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D650F74C1FA1CA6C00FEEBDB /* MyQRCodeViewController.swift */; };
+		D650F7571FA1CA6C00FEEBDB /* RecognizeQRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D650F74D1FA1CA6C00FEEBDB /* RecognizeQRCodeViewController.swift */; };
+		D650F7581FA1CA6C00FEEBDB /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D650F74E1FA1CA6C00FEEBDB /* RootViewController.swift */; };
+		D650F7591FA1CA6C00FEEBDB /* YGScanCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D650F74F1FA1CA6C00FEEBDB /* YGScanCodeViewController.swift */; };
+		D650F75C1FA1D5DD00FEEBDB /* YGScanCodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D650F75A1FA1D5DD00FEEBDB /* YGScanCodeController.swift */; };
+		D650F75D1FA1D5DD00FEEBDB /* YGScanCodeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D650F75B1FA1D5DD00FEEBDB /* YGScanCodeController.xib */; };
+		D650F75F1FA20C9400FEEBDB /* YGScanQRController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D650F75E1FA20C9400FEEBDB /* YGScanQRController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D650F7251FA1C6E500FEEBDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D650F7081FA1C6E400FEEBDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D650F70F1FA1C6E400FEEBDB;
+			remoteInfo = YGQRCodeDemo;
+		};
+		D650F7301FA1C6E500FEEBDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D650F7081FA1C6E400FEEBDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D650F70F1FA1C6E400FEEBDB;
+			remoteInfo = YGQRCodeDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D650F7101FA1C6E400FEEBDB /* YGQRCodeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YGQRCodeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D650F7131FA1C6E400FEEBDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D650F7151FA1C6E400FEEBDB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D650F7181FA1C6E500FEEBDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D650F71A1FA1C6E500FEEBDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D650F71D1FA1C6E500FEEBDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D650F71F1FA1C6E500FEEBDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D650F7241FA1C6E500FEEBDB /* YGQRCodeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YGQRCodeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D650F7281FA1C6E500FEEBDB /* YGQRCodeDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YGQRCodeDemoTests.swift; sourceTree = "<group>"; };
+		D650F72A1FA1C6E500FEEBDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D650F72F1FA1C6E500FEEBDB /* YGQRCodeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YGQRCodeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D650F7331FA1C6E500FEEBDB /* YGQRCodeDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YGQRCodeDemoUITests.swift; sourceTree = "<group>"; };
+		D650F7351FA1C6E500FEEBDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D650F7431FA1CA6C00FEEBDB /* String+QRCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+QRCode.swift"; sourceTree = "<group>"; };
+		D650F7441FA1CA6C00FEEBDB /* UIImage+QRCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+QRCode.swift"; sourceTree = "<group>"; };
+		D650F7461FA1CA6C00FEEBDB /* noticeMusic.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = noticeMusic.caf; sourceTree = "<group>"; };
+		D650F7471FA1CA6C00FEEBDB /* QRCodeImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = QRCodeImages.xcassets; sourceTree = "<group>"; };
+		D650F7491FA1CA6C00FEEBDB /* AlbumTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumTool.swift; sourceTree = "<group>"; };
+		D650F74B1FA1CA6C00FEEBDB /* GenerateQRCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenerateQRCodeViewController.swift; sourceTree = "<group>"; };
+		D650F74C1FA1CA6C00FEEBDB /* MyQRCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyQRCodeViewController.swift; sourceTree = "<group>"; };
+		D650F74D1FA1CA6C00FEEBDB /* RecognizeQRCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecognizeQRCodeViewController.swift; sourceTree = "<group>"; };
+		D650F74E1FA1CA6C00FEEBDB /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		D650F74F1FA1CA6C00FEEBDB /* YGScanCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YGScanCodeViewController.swift; sourceTree = "<group>"; };
+		D650F75A1FA1D5DD00FEEBDB /* YGScanCodeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YGScanCodeController.swift; sourceTree = "<group>"; };
+		D650F75B1FA1D5DD00FEEBDB /* YGScanCodeController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YGScanCodeController.xib; sourceTree = "<group>"; };
+		D650F75E1FA20C9400FEEBDB /* YGScanQRController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YGScanQRController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D650F70D1FA1C6E400FEEBDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D650F7211FA1C6E500FEEBDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D650F72C1FA1C6E500FEEBDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D650F7071FA1C6E400FEEBDB = {
+			isa = PBXGroup;
+			children = (
+				D650F7121FA1C6E400FEEBDB /* YGQRCodeDemo */,
+				D650F7271FA1C6E500FEEBDB /* YGQRCodeDemoTests */,
+				D650F7321FA1C6E500FEEBDB /* YGQRCodeDemoUITests */,
+				D650F7111FA1C6E400FEEBDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D650F7111FA1C6E400FEEBDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D650F7101FA1C6E400FEEBDB /* YGQRCodeDemo.app */,
+				D650F7241FA1C6E500FEEBDB /* YGQRCodeDemoTests.xctest */,
+				D650F72F1FA1C6E500FEEBDB /* YGQRCodeDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D650F7121FA1C6E400FEEBDB /* YGQRCodeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D650F7411FA1CA6C00FEEBDB /* YGQRCode */,
+				D650F7131FA1C6E400FEEBDB /* AppDelegate.swift */,
+				D650F7151FA1C6E400FEEBDB /* ViewController.swift */,
+				D650F7171FA1C6E500FEEBDB /* Main.storyboard */,
+				D650F71A1FA1C6E500FEEBDB /* Assets.xcassets */,
+				D650F71C1FA1C6E500FEEBDB /* LaunchScreen.storyboard */,
+				D650F71F1FA1C6E500FEEBDB /* Info.plist */,
+			);
+			path = YGQRCodeDemo;
+			sourceTree = "<group>";
+		};
+		D650F7271FA1C6E500FEEBDB /* YGQRCodeDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D650F7281FA1C6E500FEEBDB /* YGQRCodeDemoTests.swift */,
+				D650F72A1FA1C6E500FEEBDB /* Info.plist */,
+			);
+			path = YGQRCodeDemoTests;
+			sourceTree = "<group>";
+		};
+		D650F7321FA1C6E500FEEBDB /* YGQRCodeDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D650F7331FA1C6E500FEEBDB /* YGQRCodeDemoUITests.swift */,
+				D650F7351FA1C6E500FEEBDB /* Info.plist */,
+			);
+			path = YGQRCodeDemoUITests;
+			sourceTree = "<group>";
+		};
+		D650F7411FA1CA6C00FEEBDB /* YGQRCode */ = {
+			isa = PBXGroup;
+			children = (
+				D650F7481FA1CA6C00FEEBDB /* Tools */,
+				D650F7421FA1CA6C00FEEBDB /* Extension */,
+				D650F7451FA1CA6C00FEEBDB /* Resourec */,
+				D650F74A1FA1CA6C00FEEBDB /* ViewController */,
+			);
+			path = YGQRCode;
+			sourceTree = "<group>";
+		};
+		D650F7421FA1CA6C00FEEBDB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D650F7431FA1CA6C00FEEBDB /* String+QRCode.swift */,
+				D650F7441FA1CA6C00FEEBDB /* UIImage+QRCode.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		D650F7451FA1CA6C00FEEBDB /* Resourec */ = {
+			isa = PBXGroup;
+			children = (
+				D650F7461FA1CA6C00FEEBDB /* noticeMusic.caf */,
+				D650F7471FA1CA6C00FEEBDB /* QRCodeImages.xcassets */,
+			);
+			path = Resourec;
+			sourceTree = "<group>";
+		};
+		D650F7481FA1CA6C00FEEBDB /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				D650F7491FA1CA6C00FEEBDB /* AlbumTool.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		D650F74A1FA1CA6C00FEEBDB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D650F74B1FA1CA6C00FEEBDB /* GenerateQRCodeViewController.swift */,
+				D650F74C1FA1CA6C00FEEBDB /* MyQRCodeViewController.swift */,
+				D650F74D1FA1CA6C00FEEBDB /* RecognizeQRCodeViewController.swift */,
+				D650F74E1FA1CA6C00FEEBDB /* RootViewController.swift */,
+				D650F74F1FA1CA6C00FEEBDB /* YGScanCodeViewController.swift */,
+				D650F75A1FA1D5DD00FEEBDB /* YGScanCodeController.swift */,
+				D650F75B1FA1D5DD00FEEBDB /* YGScanCodeController.xib */,
+				D650F75E1FA20C9400FEEBDB /* YGScanQRController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D650F70F1FA1C6E400FEEBDB /* YGQRCodeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D650F7381FA1C6E500FEEBDB /* Build configuration list for PBXNativeTarget "YGQRCodeDemo" */;
+			buildPhases = (
+				D650F70C1FA1C6E400FEEBDB /* Sources */,
+				D650F70D1FA1C6E400FEEBDB /* Frameworks */,
+				D650F70E1FA1C6E400FEEBDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YGQRCodeDemo;
+			productName = YGQRCodeDemo;
+			productReference = D650F7101FA1C6E400FEEBDB /* YGQRCodeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D650F7231FA1C6E500FEEBDB /* YGQRCodeDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D650F73B1FA1C6E500FEEBDB /* Build configuration list for PBXNativeTarget "YGQRCodeDemoTests" */;
+			buildPhases = (
+				D650F7201FA1C6E500FEEBDB /* Sources */,
+				D650F7211FA1C6E500FEEBDB /* Frameworks */,
+				D650F7221FA1C6E500FEEBDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D650F7261FA1C6E500FEEBDB /* PBXTargetDependency */,
+			);
+			name = YGQRCodeDemoTests;
+			productName = YGQRCodeDemoTests;
+			productReference = D650F7241FA1C6E500FEEBDB /* YGQRCodeDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D650F72E1FA1C6E500FEEBDB /* YGQRCodeDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D650F73E1FA1C6E500FEEBDB /* Build configuration list for PBXNativeTarget "YGQRCodeDemoUITests" */;
+			buildPhases = (
+				D650F72B1FA1C6E500FEEBDB /* Sources */,
+				D650F72C1FA1C6E500FEEBDB /* Frameworks */,
+				D650F72D1FA1C6E500FEEBDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D650F7311FA1C6E500FEEBDB /* PBXTargetDependency */,
+			);
+			name = YGQRCodeDemoUITests;
+			productName = YGQRCodeDemoUITests;
+			productReference = D650F72F1FA1C6E500FEEBDB /* YGQRCodeDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D650F7081FA1C6E400FEEBDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = YG;
+				TargetAttributes = {
+					D650F70F1FA1C6E400FEEBDB = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					D650F7231FA1C6E500FEEBDB = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D650F70F1FA1C6E400FEEBDB;
+					};
+					D650F72E1FA1C6E500FEEBDB = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D650F70F1FA1C6E400FEEBDB;
+					};
+				};
+			};
+			buildConfigurationList = D650F70B1FA1C6E400FEEBDB /* Build configuration list for PBXProject "YGQRCodeDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D650F7071FA1C6E400FEEBDB;
+			productRefGroup = D650F7111FA1C6E400FEEBDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D650F70F1FA1C6E400FEEBDB /* YGQRCodeDemo */,
+				D650F7231FA1C6E500FEEBDB /* YGQRCodeDemoTests */,
+				D650F72E1FA1C6E500FEEBDB /* YGQRCodeDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D650F70E1FA1C6E400FEEBDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D650F71E1FA1C6E500FEEBDB /* LaunchScreen.storyboard in Resources */,
+				D650F71B1FA1C6E500FEEBDB /* Assets.xcassets in Resources */,
+				D650F7531FA1CA6C00FEEBDB /* QRCodeImages.xcassets in Resources */,
+				D650F7521FA1CA6C00FEEBDB /* noticeMusic.caf in Resources */,
+				D650F7191FA1C6E500FEEBDB /* Main.storyboard in Resources */,
+				D650F75D1FA1D5DD00FEEBDB /* YGScanCodeController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D650F7221FA1C6E500FEEBDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D650F72D1FA1C6E500FEEBDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D650F70C1FA1C6E400FEEBDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D650F7501FA1CA6C00FEEBDB /* String+QRCode.swift in Sources */,
+				D650F7571FA1CA6C00FEEBDB /* RecognizeQRCodeViewController.swift in Sources */,
+				D650F7591FA1CA6C00FEEBDB /* YGScanCodeViewController.swift in Sources */,
+				D650F7581FA1CA6C00FEEBDB /* RootViewController.swift in Sources */,
+				D650F7551FA1CA6C00FEEBDB /* GenerateQRCodeViewController.swift in Sources */,
+				D650F7511FA1CA6C00FEEBDB /* UIImage+QRCode.swift in Sources */,
+				D650F7561FA1CA6C00FEEBDB /* MyQRCodeViewController.swift in Sources */,
+				D650F7161FA1C6E500FEEBDB /* ViewController.swift in Sources */,
+				D650F75C1FA1D5DD00FEEBDB /* YGScanCodeController.swift in Sources */,
+				D650F7541FA1CA6C00FEEBDB /* AlbumTool.swift in Sources */,
+				D650F7141FA1C6E400FEEBDB /* AppDelegate.swift in Sources */,
+				D650F75F1FA20C9400FEEBDB /* YGScanQRController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D650F7201FA1C6E500FEEBDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D650F7291FA1C6E500FEEBDB /* YGQRCodeDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D650F72B1FA1C6E500FEEBDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D650F7341FA1C6E500FEEBDB /* YGQRCodeDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D650F7261FA1C6E500FEEBDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D650F70F1FA1C6E400FEEBDB /* YGQRCodeDemo */;
+			targetProxy = D650F7251FA1C6E500FEEBDB /* PBXContainerItemProxy */;
+		};
+		D650F7311FA1C6E500FEEBDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D650F70F1FA1C6E400FEEBDB /* YGQRCodeDemo */;
+			targetProxy = D650F7301FA1C6E500FEEBDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D650F7171FA1C6E500FEEBDB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D650F7181FA1C6E500FEEBDB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D650F71C1FA1C6E500FEEBDB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D650F71D1FA1C6E500FEEBDB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D650F7361FA1C6E500FEEBDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D650F7371FA1C6E500FEEBDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D650F7391FA1C6E500FEEBDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UZR4V8Y768;
+				INFOPLIST_FILE = YGQRCodeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wuyiguang.YGQRCodeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D650F73A1FA1C6E500FEEBDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UZR4V8Y768;
+				INFOPLIST_FILE = YGQRCodeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wuyiguang.YGQRCodeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D650F73C1FA1C6E500FEEBDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YGQRCodeDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wuyiguang.YGQRCodeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YGQRCodeDemo.app/YGQRCodeDemo";
+			};
+			name = Debug;
+		};
+		D650F73D1FA1C6E500FEEBDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YGQRCodeDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wuyiguang.YGQRCodeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YGQRCodeDemo.app/YGQRCodeDemo";
+			};
+			name = Release;
+		};
+		D650F73F1FA1C6E500FEEBDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YGQRCodeDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wuyiguang.YGQRCodeDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YGQRCodeDemo;
+			};
+			name = Debug;
+		};
+		D650F7401FA1C6E500FEEBDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YGQRCodeDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wuyiguang.YGQRCodeDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YGQRCodeDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D650F70B1FA1C6E400FEEBDB /* Build configuration list for PBXProject "YGQRCodeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D650F7361FA1C6E500FEEBDB /* Debug */,
+				D650F7371FA1C6E500FEEBDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D650F7381FA1C6E500FEEBDB /* Build configuration list for PBXNativeTarget "YGQRCodeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D650F7391FA1C6E500FEEBDB /* Debug */,
+				D650F73A1FA1C6E500FEEBDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D650F73B1FA1C6E500FEEBDB /* Build configuration list for PBXNativeTarget "YGQRCodeDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D650F73C1FA1C6E500FEEBDB /* Debug */,
+				D650F73D1FA1C6E500FEEBDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D650F73E1FA1C6E500FEEBDB /* Build configuration list for PBXNativeTarget "YGQRCodeDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D650F73F1FA1C6E500FEEBDB /* Debug */,
+				D650F7401FA1C6E500FEEBDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D650F7081FA1C6E400FEEBDB /* Project object */;
+}
