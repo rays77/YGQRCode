@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   # "*" 表示匹配所有文件
   # "*.{h,m}" 表示匹配所有以.h和.m结尾的文件
   # "**" 表示匹配所有子目录
-  s.source_files = 'YGQRCode/YGQRCode/**/*.{h,m}'
+  s.source_files = 'YGQRCode/*'
   # s.resources = 'Assets'
   
   # s.ios.exclude_files = 'Classes/osx'
